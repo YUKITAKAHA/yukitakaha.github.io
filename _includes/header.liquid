@@ -117,21 +117,23 @@
               {% endif %}
             {% endif %}
           {% endfor %}
-          {% if site.search_enabled %}
+          {% comment %}{% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
               <button id="search-toggle" title="Search" onclick="openSearchModal()">
                 <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
               </button>
             </li>
-          {% endif %}
+          {% endif %}{% endcomment %}
           <!-- Toogle language -->
           {% if site.languages.size >= 2 %}
             {% if site.languages.size == 2 %}
               {% if site.active_lang == site.languages.first %}
                 {% assign other_language = site.languages.last %}
+                {% assign other_language_label = site.lang_label.last %}
               {% else %}
                 {% assign other_language = site.languages.first %}
+                {% assign other_language_label = site.lang_label.first %}
               {% endif %}
               <li class="nav-item active">
                 {% if site.active_lang == site.default_lang %}
@@ -139,7 +141,8 @@
                     {% if site.country_flag %}
                       <span class="fi fi-{{ other_language | split: "-" | last }}"></span>
                     {% else %}
-                      {{ other_language | upcase }}
+                      {% comment %}{{ other_language | upcase }}{% endcomment %}
+                      {{ other_language_label}}
                     {%- endif -%}
                   </a>
                 {% else %}
@@ -147,7 +150,8 @@
                     {% if site.country_flag %}
                       <span class="fi fi-{{ site.default_lang | split: "-" | last }}"></span>
                     {% else %}
-                      {{ site.default_lang | upcase }}
+                      {% comment %}{{ site.default_lang | upcase }}{% endcomment %}
+                      {{ other_language_label}}
                     {%- endif -%}
                   </a>
                 {% endif %}

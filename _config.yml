@@ -263,8 +263,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Takaha]
+  first_name: [Yuki, Y.]
 
   style: apa
   locale: en
@@ -344,12 +344,13 @@ external_links:
 # Jekyll Polyglot
 # -----------------------------------------------------------------------------
 
-languages: ["en-us", "pt-br", "fr-ca"]
-default_lang: "en-us"
+languages: ["en", "jp"]
+default_lang: "en"
 exclude_from_localization: ["assets"]
 lang_from_path: true
 country_flag: false # set true for allowing flag symbol in language toggle
 parallel_localization: false
+lang_label: ["English", "日本語"]
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
@@ -358,7 +359,9 @@ parallel_localization: false
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  # During development enabled is false. When uploaded, enabled is true.
+  binary_path: "magick"
   widths:
     - 480
     - 800
@@ -636,10 +639,12 @@ third_party_libraries:
 # -----------------------------------------------------------------------------
 
 jekyll_get_json:
-  - data: resume_en-us
-    json: assets/json/resume_en-us.json # it can also be an url
-  - data: resume_pt-br
-    json: assets/json/resume_pt-br.json # it can also be an url
+  - data: resume_en
+    json: assets/json/resume_en.json # it can also be an url
+  #- data: resume_pt-br
+  #  json: assets/json/resume_pt-br.json # it can also be an url
+  - data: resume_jp
+    json: assets/json/resume_jp.json # it can also be an url
 
 jsonresume:
   - basics
@@ -648,6 +653,7 @@ jsonresume:
   - publications
   - projects
   - volunteer
+  - fellowships
   - awards
   - certificates
   - skills

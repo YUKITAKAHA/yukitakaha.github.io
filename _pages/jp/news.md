@@ -1,0 +1,8 @@
+---
+page_id: news
+layout: page
+title: News
+permalink: /News/
+---
+
+{% include news.liquid %}
