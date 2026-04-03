@@ -1,16 +1,24 @@
 {
   "basics":{
     "name": "Yuki Takaha",
-    "position": "PhD student",
-    "affiliation": "Department of Basic Science, Graduate School of Arts and Sciences,\n The University of Tokyo",
+    "position": "Assistant Professor",
+    "affiliation": "Institute of Industrial Sciences, The University of Tokyo",
     "email": "yukitakaha[at]g.ecc.u-tokyo.ac.jp"
   },
+  "work": [
+    {
+      "name": "Institute of Industrial Sciences, The University of Tokyo",
+      "position": "Assistant Professor",
+      "startDate": "2026-04-01",
+      "endDate": "present"
+    }
+  ],
   "education": [
     {
       "institution": "Department of Basic Science, Graduate School of Arts and Sciences, The University of Tokyo",
-      "studyType": "PhD course",
+      "studyType": "Doctor of Philosophy in the field of Multidisciplinary Sciences",
       "startDate": "2023-04-01",
-      "endDate": "present",
+      "endDate": "2026-03-24",
       "score": "10",
       "courses": ["Supervisor: Prof. Atsushi Ikeda"]
     },

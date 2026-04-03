@@ -1,16 +1,24 @@
 {
   "basics":{
     "name": "髙羽 悠樹 （たかは ゆうき）",
-    "position": "博士課程学生",
-    "affiliation": "東京大学大学院総合文化研究科広域科学専攻相関基礎科学系",
+    "position": "助教",
+    "affiliation": "東京大学生産技術研究所",
     "email": "yukitakaha[at]g.ecc.u-tokyo.ac.jp"
   },
+  "work": [
+    {
+      "name": "東京大学生産技術研究所",
+      "position": "助教",
+      "startDate": "2026-04-01",
+      "endDate": "現在"
+    }
+  ],
   "education": [
     {
       "institution": "東京大学大学院総合文化研究科広域科学専攻相関基礎科学系",
-      "studyType": "博士課程",
+      "studyType": "博士（学術）",
       "startDate": "2023-04-01",
-      "endDate": "現在",
+      "endDate": "2026-03-24",
       "score": "10",
       "courses": ["指導教員: 池田 昌司 准教授"]
     },
