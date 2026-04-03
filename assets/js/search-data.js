@@ -29,7 +29,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Updated at December 2025. Click the right icon for pdf version.",
+          description: "Updated at April 2026. Click the right icon for pdf version.",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/cv/";
@@ -409,6 +409,12 @@ ninja.data = [{
               window.location.href = "/books/pt-br/the_godfather/";
             },},{id: "news-this-homepage-is-opened-i-will-add-contents-gradually",
           title: 'This homepage is opened. I will add contents gradually.',
+          description: "",
+          section: "News",},{id: "news-i-have-finished-my-ph-d-course",
+          title: 'I have finished my Ph.D. course.',
+          description: "",
+          section: "News",},{id: "news-i-start-my-new-career-at-iis",
+          title: 'I start my new career at IIS.',
           description: "",
           section: "News",},{id: "projects-project-7",
           title: 'project 7',

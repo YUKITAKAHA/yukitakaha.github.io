@@ -29,7 +29,7 @@ ninja.data = [{
           },
         },{id: "nav-経歴",
           title: "経歴",
-          description: "2025年12月更新。pdf版は右のアイコンから。",
+          description: "2026年4月更新。pdf版は右のアイコンから。",
           section: "menu de navigation",
           handler: () => {
             window.location.href = "/jp/cv/";
@@ -409,6 +409,12 @@ ninja.data = [{
               window.location.href = "/jp/books/pt-br/the_godfather/";
             },},{id: "news-このホームページを開設しました-徐々に充実させていく予定です",
           title: 'このホームページを開設しました。 徐々に充実させていく予定です。',
+          description: "",
+          section: "actualités",},{id: "news-博士課程を修了しました",
+          title: '博士課程を修了しました。',
+          description: "",
+          section: "actualités",},{id: "news-東京大学生産技術研究所の助教に着任しました",
+          title: '東京大学生産技術研究所の助教に着任しました。',
           description: "",
           section: "actualités",},{id: "projects-project-7",
           title: 'project 7',
