@@ -7,7 +7,9 @@ description: #publicações por categoria em ordem cronológica reversa. gerado 
 nav: true
 nav_order: 2
 ---
+
 [Google Scholar](https://scholar.google.com/citations?user=kVwFxoAAAAAJ&hl=jp)もご覧ください。
+
 <!-- _pages/publications.md -->
 
 <!-- Bibsearch Feature -->

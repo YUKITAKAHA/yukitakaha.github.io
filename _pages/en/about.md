@@ -26,7 +26,7 @@ announcements:
 ---
 
 Hi! I am Yuki takaha, an Assistant Professor at [Institute of Industrial Science,\\
- The University of Tokyo](https://www.iis.u-tokyo.ac.jp/en/) in the group of Prof. Akira Furukawa([group website, in Japanese](https://sites.google.com/g.ecc.u-tokyo.ac.jp/complexfluid/ホーム)).
+The University of Tokyo](https://www.iis.u-tokyo.ac.jp/en/) in the group of Prof. Akira Furukawa([group website, in Japanese](https://sites.google.com/g.ecc.u-tokyo.ac.jp/complexfluid/ホーム)).
 
 I am interested in physics of softmatter, where nonequilibrium phenomena, statistical physics and continuum mechanics meet.\\
 My current research topic is about avalanche dynamics in glassy systems.

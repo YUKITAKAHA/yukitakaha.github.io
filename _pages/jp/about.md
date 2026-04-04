@@ -21,7 +21,6 @@ announcements:
 
 #news: true # includes a list of news items
 #latest_posts: true # includes a list of the newest posts
-
 ---
 
 こちらは髙羽悠樹の個人ページです。
@@ -31,4 +30,3 @@ announcements:
 現在の私の研究テーマは構造ガラスに現れるアバランチ（雪崩的）ダイナミクスです。
 
 博士号は[東京大学大学院総合文化研究科](https://www.c.u-tokyo.ac.jp/)にて池田昌司准教授の指導の下で取得しました([group website](https://park.itc.u-tokyo.ac.jp/ikeda-group/index.html))。
-
