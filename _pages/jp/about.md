@@ -7,7 +7,7 @@ subtitle: 東京大学助教
 
 profile:
   align: right
-  image: prof_pic1.jpg
+  image: prof_pic2.jpg
   image_circular: false # crops the image to make it circular
   more_info: #
 
