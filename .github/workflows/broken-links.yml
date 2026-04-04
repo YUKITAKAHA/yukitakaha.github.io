@@ -44,7 +44,8 @@ jobs:
     # only run on the main repo
     if: github.repository == 'george-gca/multi-language-al-folio'
     steps:
-      - uses: actions/checkout@v4
+      #- uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Link Checker 🔗
         uses: lycheeverse/lychee-action@v2.1.0
