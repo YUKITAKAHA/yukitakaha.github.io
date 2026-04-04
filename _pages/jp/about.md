@@ -25,7 +25,7 @@ announcements:
 ---
 
 こちらは髙羽悠樹の個人ページです。
-私は現在、[東京大学生産技術研究所](https://www.iis.u-tokyo.ac.jp/ja/)に在籍して、古川亮准教授のグループで研究しています([group website](https://sites.google.com/g.ecc.u-tokyo.ac.jp/complexfluid/ホーム))。
+私は現在、[東京大学生産技術研究所](https://www.iis.u-tokyo.ac.jp/ja/)古川亮准教授のグループで研究しています([group website](https://sites.google.com/g.ecc.u-tokyo.ac.jp/complexfluid/ホーム))。
 
 非平衡現象、統計物理学、連続体力学などが絡み合うソフトマターの物理学に興味を持って研究しています。
 現在の私の研究テーマは構造ガラスに現れるアバランチ（雪崩的）ダイナミクスです。

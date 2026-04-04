@@ -19,7 +19,7 @@ blog:
   navigation_title: blogue
 categories:
   fun: extra
-  work: 職位
+  work: 職歴
 citation:
   bibtex: "ou comme entrée BibTeX:"
   introduction: "Si vous avez trouvé cela utile, veuillez le citer comme suit:"
@@ -79,7 +79,7 @@ cv:
   url: site web
   username: nom d'utilisateur
   volunteer: bénévolat
-  work: 職位
+  work: 職歴
 footer:
   copyright: Copyright
   last_updated: "Last updated:"
