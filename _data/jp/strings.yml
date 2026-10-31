@@ -29,6 +29,7 @@ collections:
 contact_note: #Vous pouvez même ajouter une petite note indiquant lequel de ces moyens est le meilleur pour vous joindre.
 cv:
   address: adresse
+  affiliation: 所属
   area: région
   awarder: récipient(e)
   awards: 受賞
