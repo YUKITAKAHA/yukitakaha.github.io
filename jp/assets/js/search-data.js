@@ -29,7 +29,7 @@ ninja.data = [{
           },
         },{id: "nav-経歴",
           title: "経歴",
-          description: "2026年4月更新。pdf版は右のアイコンから。",
+          description: "2026年10月更新。pdf版は右のアイコンから。",
           section: "menu de navigation",
           handler: () => {
             window.location.href = "/jp/cv/";
