@@ -483,11 +483,11 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=kVwFxoAAAAAJ", "_blank");
         },
       },{
-          id: 'lang-jp',
-          title: 'jp',
+          id: 'lang-ja',
+          title: 'ja',
           section: 'Languages',
           handler: () => {
-            window.location.href = "/jp" + updatedUrl;
+            window.location.href = "/ja" + updatedUrl;
           },
         },{
       id: 'light-theme',
